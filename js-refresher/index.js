@@ -1,5 +1,5 @@
-import helloWorld from "./assets/scripts/utils.js";
-import { byeBye } from "./assets/scripts/utils.js";
+import * as test from "./assets/scripts/utils.js";
 
-helloWorld();
-byeBye();
+
+test.default(); //helloWorld function default value
+test.byeBye();
