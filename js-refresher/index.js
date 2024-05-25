@@ -3,10 +3,9 @@ import { byeBye as Bye } from "./assets/scripts/utils.js";
 import testEquality from './assets/scripts/varPractice.js';
 import testFunctions from './assets/scripts/functionsPractice.js';
 import { noReturnObjectFunction } from "./assets/scripts/functionsPractice.js";
+import testObject from "./assets/scripts/objectsPractice.js";
 
 
-var testFunction = testFunctions();
-
-testFunction();
-testFunctions()(); // lol
-console.log(noReturnObjectFunction());
+console.log(testObject.property1); // 1
+console.log(testObject.someFunction());//2
+console.log(testObject.property1);//2
