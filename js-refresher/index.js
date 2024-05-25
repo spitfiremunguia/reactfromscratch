@@ -1,5 +1,5 @@
-import * as test from "./assets/scripts/utils.js";
+import hello from "./assets/scripts/utils.js";  // "hello is just a name I give to the default exported value"
+import { byeBye as Bye } from "./assets/scripts/utils.js"; 
 
-
-test.default(); //helloWorld function default value
-test.byeBye();
+hello();
+Bye();
